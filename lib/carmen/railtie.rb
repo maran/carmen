@@ -8,7 +8,7 @@ module Carmen
       
       class Railtie < Rails::Railtie
         config.after_initialize do
-          require 'carmen/action_view_helpers'
+          #require 'carmen/action_view_helpers'
         end
       end
     end
